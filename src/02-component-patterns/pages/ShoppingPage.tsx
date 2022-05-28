@@ -19,10 +19,10 @@ export const ShoppingPage = () => {
       <h1>Shopping Store</h1>
       <hr />
       <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
-        <ProductCard product={product}>
-          <ProductCard.Image img={product.img} />
-          <ProductCard.Title />
-          <ProductCard.Buttons />
+        <ProductCard product={product} className="bg-dark text-white">
+          <ProductCard.Image img={product.img} className="custom-image" />
+          <ProductCard.Title className="text-white text-bold" />
+          <ProductCard.Buttons className="custom-buttons" />
         </ProductCard>
         <ProductCard product={product} className="bg-dark text-white">
           <ProductImage className="custom-image" />
