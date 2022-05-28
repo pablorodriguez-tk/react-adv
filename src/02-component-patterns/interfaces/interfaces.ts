@@ -16,5 +16,5 @@ export interface ProductCardHOCProps {
   ({ product, children }: ProductCardProps): JSX.Element;
   Title: ({ title }: { title?: string }) => JSX.Element;
   Image: ({ img }: { img?: string }) => JSX.Element;
-  Buttons: ({ className }: { className?: string }) => JSX.Element;
+  Buttons: () => JSX.Element;
 }
