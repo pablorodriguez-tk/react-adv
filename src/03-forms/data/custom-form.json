@@ -1,0 +1,78 @@
+[
+  {
+    "type": "input",
+    "name": "firstName",
+    "placeholder": "Pablo",
+    "label": "First Name",
+    "value": "Pablo",
+    "validation": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": "5"
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "lastName",
+    "placeholder": "Rodriguez",
+    "label": "last Name",
+    "value": "Rodriguez",
+    "validation": [
+      {
+        "type": "required"
+      }
+    ]
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "placeholder": "pablo@gmail.com",
+    "label": "Email",
+    "value": "pablo@gmail.com",
+    "validation": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "email"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "name": "favoriteGame",
+    "label": "Favorite Game",
+    "value": "",
+    "options": [
+      {
+        "id": "",
+        "label": "Select a Game"
+      },
+      {
+        "id": "csgo",
+        "label": "CSGO"
+      },
+      {
+        "id": "lol",
+        "label": "League of Legends"
+      },
+      {
+        "id": "pubg",
+        "label": "PUBG"
+      },
+      {
+        "id": "fortnite",
+        "label": "Fortnite"
+      }
+    ],
+    "validation": [
+      {
+        "type": "required"
+      }
+    ]
+  }
+]
